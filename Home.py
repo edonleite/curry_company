@@ -6,7 +6,7 @@ st.set_page_config(
     page_icon="🎲"
 )
 
-image_path = '/Users/meigarom/repos/ftc_programacao_python/'
+#image_path = '/Users/meigarom/repos/ftc_programacao_python/'
 image = Image.open( image_path + 'logo.png' )
 st.sidebar.image( image, width=120 )
 
